@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import ComposableArchitecture
+
+struct RecentTransactionListFeature: ReducerProtocol {
+    struct State: Equatable {
+        var transaction: IdentifiedArrayOf<Transaction>
+    }
+    enum Action: Equatable {}
+    
+    var body: some ReducerProtocolOf<Self> {
+        EmptyReducer()
+    }
+}

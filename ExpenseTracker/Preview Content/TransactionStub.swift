@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+var transaction = Transaction(
+  id: UUID(),
+  merchant: "GS25",
+  category: .shopping,
+  amount: 2000.0,
+  type: .debit,
+  date: Date()
+)
+
+var transactions = [Transaction](repeating: transaction, count: 10)

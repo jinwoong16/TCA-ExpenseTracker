@@ -7,11 +7,20 @@
 
 import SwiftUI
 
+import ComposableArchitecture
+
 @main
 struct ExpenseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(
+                store: Store(
+                    initialState: MainFeature.State()
+                ) {
+                    MainFeature()
+                        ._printChanges()
+                }
+            )
         }
     }
 }

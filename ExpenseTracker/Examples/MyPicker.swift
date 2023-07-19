@@ -7,9 +7,21 @@
 
 import SwiftUI
 
+enum Flavor: String, CaseIterable, Identifiable {
+    case chocolate, vanilla, strawberry
+    var id: Self { self }
+}
+
 struct MyPicker: View {
+    @State private var selectedFlavor: Flavor = .chocolate
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Picker("Flavor", selection: $selectedFlavor) {
+            ForEach(Flavor.allCases) { flavor in
+                Text(flavor.rawValue.capitalized)
+            }
+        }
+        .pickerStyle(.segmented)
     }
 }
 

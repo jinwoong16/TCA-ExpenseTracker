@@ -6,15 +6,68 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct TransactionFormView: View {
+    let store: StoreOf<TransactionFormFeature>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        WithViewStore(self.store, observe: { $0 }) { viewStore in
+            NavigationStack {
+                Form {
+                    Section {
+                        TextField(
+                            "Merchant",
+                            text: viewStore.$transaction.merchant
+                        )
+                        CategoryPicker(
+                            selection: viewStore.$transaction.category
+                        )
+                        TextField(
+                            "Amount",
+                            value: viewStore.$transaction.amount,
+                            formatter: NumberFormatter()
+                        )
+                        .keyboardType(.decimalPad)
+                        DatePicker(
+                            "Date",
+                            selection: viewStore.$transaction.date,
+                            displayedComponents: [.date]
+                        )
+                        ExpenseTypeSegmentView(
+                            type: viewStore.$transaction.type
+                        )
+                    } header: {
+                        Text("Transaction Info")
+                    }
+                }
+                .toolbar {
+                    ToolbarItem(placement: .cancellationAction) {
+                        Button("Cancel") {
+                            viewStore.send(.cancelButtonTapped)
+                        }
+                    }
+                    ToolbarItem(placement: .confirmationAction) {
+                        Button("Add") {
+                            viewStore.send(.addButtonTapped)
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 struct TransactionFormView_Previews: PreviewProvider {
     static var previews: some View {
-        TransactionFormView()
+        TransactionFormView(
+            store: Store(
+                initialState: TransactionFormFeature.State(
+                    transaction: .emptyMock
+                )
+            ) {
+                TransactionFormFeature()
+            }
+        )
     }
 }
