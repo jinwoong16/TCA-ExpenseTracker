@@ -15,13 +15,6 @@
 		833F5DC52A684C6500BFBAE7 /* TransactionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F5DC42A684C6500BFBAE7 /* TransactionFormView.swift */; };
 		833F5DC72A684CB800BFBAE7 /* TransactionFormFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F5DC62A684CB800BFBAE7 /* TransactionFormFeature.swift */; };
 		833F5DC92A684FA100BFBAE7 /* ExpenseTypeSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F5DC82A684FA100BFBAE7 /* ExpenseTypeSegmentView.swift */; };
-		833F5DCB2A68553900BFBAE7 /* MyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F5DCA2A68553900BFBAE7 /* MyPicker.swift */; };
-		837C622A2A5ECC1800929046 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C62292A5ECC1800929046 /* Counter.swift */; };
-		837C622C2A5ECC4200929046 /* LoadThenPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C622B2A5ECC4200929046 /* LoadThenPresent.swift */; };
-		837C622E2A5ED40C00929046 /* VehicleFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C622D2A5ED40C00929046 /* VehicleFeature.swift */; };
-		837C62302A5ED45B00929046 /* NewVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C622F2A5ED45B00929046 /* NewVehicle.swift */; };
-		837C62332A5F8CFA00929046 /* InventoryFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C62322A5F8CFA00929046 /* InventoryFeature.swift */; };
-		837C62352A5F8F5000929046 /* ItemFormFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C62342A5F8F5000929046 /* ItemFormFeature.swift */; };
 		838F8E362A6680F600957590 /* MainFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838F8E352A6680F600957590 /* MainFeature.swift */; };
 		839B521E2A5E9E5E00FC5259 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B521D2A5E9E5E00FC5259 /* MainView.swift */; };
 		839B52242A5E9E8900FC5259 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 839B52232A5E9E8900FC5259 /* ComposableArchitecture */; };
@@ -31,14 +24,12 @@
 		839B522E2A5EA84D00FC5259 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B522D2A5EA84D00FC5259 /* Category.swift */; };
 		839B52302A5EA86C00FC5259 /* TransactionStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839B522F2A5EA86C00FC5259 /* TransactionStub.swift */; };
 		839E0D802A5D0CBB00B6EC38 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E0D7F2A5D0CBB00B6EC38 /* ExpenseTrackerApp.swift */; };
-		839E0D822A5D0CBB00B6EC38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E0D812A5D0CBB00B6EC38 /* ContentView.swift */; };
 		839E0D842A5D0CBB00B6EC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E0D832A5D0CBB00B6EC38 /* Assets.xcassets */; };
 		839E0D872A5D0CBB00B6EC38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839E0D862A5D0CBB00B6EC38 /* Preview Assets.xcassets */; };
 		839E0D912A5D0CBB00B6EC38 /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E0D902A5D0CBB00B6EC38 /* ExpenseTrackerTests.swift */; };
 		839E0D9B2A5D0CBB00B6EC38 /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E0D9A2A5D0CBB00B6EC38 /* ExpenseTrackerUITests.swift */; };
 		839E0D9D2A5D0CBB00B6EC38 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E0D9C2A5D0CBB00B6EC38 /* ExpenseTrackerUITestsLaunchTests.swift */; };
 		839E0DAD2A5D0CF200B6EC38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E0DAC2A5D0CF200B6EC38 /* Extensions.swift */; };
-		83C24AD12A5EC329006E9C35 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C24AD02A5EC329006E9C35 /* Dummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,13 +57,6 @@
 		833F5DC42A684C6500BFBAE7 /* TransactionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormView.swift; sourceTree = "<group>"; };
 		833F5DC62A684CB800BFBAE7 /* TransactionFormFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormFeature.swift; sourceTree = "<group>"; };
 		833F5DC82A684FA100BFBAE7 /* ExpenseTypeSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTypeSegmentView.swift; sourceTree = "<group>"; };
-		833F5DCA2A68553900BFBAE7 /* MyPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPicker.swift; sourceTree = "<group>"; };
-		837C62292A5ECC1800929046 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
-		837C622B2A5ECC4200929046 /* LoadThenPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadThenPresent.swift; sourceTree = "<group>"; };
-		837C622D2A5ED40C00929046 /* VehicleFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleFeature.swift; sourceTree = "<group>"; };
-		837C622F2A5ED45B00929046 /* NewVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVehicle.swift; sourceTree = "<group>"; };
-		837C62322A5F8CFA00929046 /* InventoryFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFeature.swift; sourceTree = "<group>"; };
-		837C62342A5F8F5000929046 /* ItemFormFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFormFeature.swift; sourceTree = "<group>"; };
 		838F8E352A6680F600957590 /* MainFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeature.swift; sourceTree = "<group>"; };
 		839B521D2A5E9E5E00FC5259 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		839B52252A5EA4E600FC5259 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
@@ -82,7 +66,6 @@
 		839B522F2A5EA86C00FC5259 /* TransactionStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionStub.swift; sourceTree = "<group>"; };
 		839E0D7C2A5D0CBB00B6EC38 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839E0D7F2A5D0CBB00B6EC38 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
-		839E0D812A5D0CBB00B6EC38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		839E0D832A5D0CBB00B6EC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839E0D862A5D0CBB00B6EC38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		839E0D8C2A5D0CBB00B6EC38 /* ExpenseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +74,6 @@
 		839E0D9A2A5D0CBB00B6EC38 /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		839E0D9C2A5D0CBB00B6EC38 /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		839E0DAC2A5D0CF200B6EC38 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		83C24AD02A5EC329006E9C35 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,29 +121,6 @@
 				833F5DC62A684CB800BFBAE7 /* TransactionFormFeature.swift */,
 			);
 			path = TransactionForm;
-			sourceTree = "<group>";
-		};
-		837C62262A5ECBCB00929046 /* Examples */ = {
-			isa = PBXGroup;
-			children = (
-				83C24AD02A5EC329006E9C35 /* Dummy.swift */,
-				837C62312A5F8CE800929046 /* Navigation */,
-				837C62292A5ECC1800929046 /* Counter.swift */,
-				837C622B2A5ECC4200929046 /* LoadThenPresent.swift */,
-				837C622D2A5ED40C00929046 /* VehicleFeature.swift */,
-				837C622F2A5ED45B00929046 /* NewVehicle.swift */,
-				833F5DCA2A68553900BFBAE7 /* MyPicker.swift */,
-			);
-			path = Examples;
-			sourceTree = "<group>";
-		};
-		837C62312A5F8CE800929046 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				837C62322A5F8CFA00929046 /* InventoryFeature.swift */,
-				837C62342A5F8F5000929046 /* ItemFormFeature.swift */,
-			);
-			path = Navigation;
 			sourceTree = "<group>";
 		};
 		839B521A2A5E9E2E00FC5259 /* Main */ = {
@@ -213,12 +172,10 @@
 		839E0D7E2A5D0CBB00B6EC38 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
-				837C62262A5ECBCB00929046 /* Examples */,
 				839E0DAB2A5D0CE600B6EC38 /* Utils */,
 				839E0DAA2A5D0CE100B6EC38 /* Objects */,
 				839E0DA92A5D0CDC00B6EC38 /* Views */,
 				839E0D7F2A5D0CBB00B6EC38 /* ExpenseTrackerApp.swift */,
-				839E0D812A5D0CBB00B6EC38 /* ContentView.swift */,
 				839E0D832A5D0CBB00B6EC38 /* Assets.xcassets */,
 				839E0D852A5D0CBB00B6EC38 /* Preview Content */,
 			);
@@ -418,18 +375,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837C622C2A5ECC4200929046 /* LoadThenPresent.swift in Sources */,
 				839B522A2A5EA58A00FC5259 /* Transaction.swift in Sources */,
-				839E0D822A5D0CBB00B6EC38 /* ContentView.swift in Sources */,
 				833F5DB82A680A6700BFBAE7 /* TransactionListFeature.swift in Sources */,
-				837C62302A5ED45B00929046 /* NewVehicle.swift in Sources */,
 				833F5DC52A684C6500BFBAE7 /* TransactionFormView.swift in Sources */,
 				833F5DC32A6845F100BFBAE7 /* CategoryPicker.swift in Sources */,
 				838F8E362A6680F600957590 /* MainFeature.swift in Sources */,
-				837C622A2A5ECC1800929046 /* Counter.swift in Sources */,
-				83C24AD12A5EC329006E9C35 /* Dummy.swift in Sources */,
 				833F5DBD2A680CCC00BFBAE7 /* RecentTransactionListView.swift in Sources */,
-				837C62332A5F8CFA00929046 /* InventoryFeature.swift in Sources */,
 				839B52262A5EA4E600FC5259 /* TransactionListView.swift in Sources */,
 				839B521E2A5E9E5E00FC5259 /* MainView.swift in Sources */,
 				833F5DC72A684CB800BFBAE7 /* TransactionFormFeature.swift in Sources */,
@@ -437,12 +388,9 @@
 				833F5DC92A684FA100BFBAE7 /* ExpenseTypeSegmentView.swift in Sources */,
 				839E0DAD2A5D0CF200B6EC38 /* Extensions.swift in Sources */,
 				833F5DBB2A680CA100BFBAE7 /* RecentTransactionListFeature.swift in Sources */,
-				833F5DCB2A68553900BFBAE7 /* MyPicker.swift in Sources */,
-				837C622E2A5ED40C00929046 /* VehicleFeature.swift in Sources */,
 				839E0D802A5D0CBB00B6EC38 /* ExpenseTrackerApp.swift in Sources */,
 				839B52302A5EA86C00FC5259 /* TransactionStub.swift in Sources */,
 				839B522E2A5EA84D00FC5259 /* Category.swift in Sources */,
-				837C62352A5F8F5000929046 /* ItemFormFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
