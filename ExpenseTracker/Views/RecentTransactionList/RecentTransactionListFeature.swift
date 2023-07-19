@@ -10,9 +10,11 @@ import ComposableArchitecture
 
 struct RecentTransactionListFeature: ReducerProtocol {
     struct State: Equatable {
-        var transaction: IdentifiedArrayOf<Transaction>
+        var transactionList: IdentifiedArrayOf<Transaction>
     }
-    enum Action: Equatable {}
+    enum Action: Equatable {
+        case empty
+    }
     
     var body: some ReducerProtocolOf<Self> {
         EmptyReducer()
