@@ -24,6 +24,7 @@ struct MainFeature: ReducerProtocol {
         }
         Reduce { state, action in
             switch action {
+                /// Synchronize the MainFeature state and the TransactionListFeature state.
                 case let .path(.popFrom(id: id)):
                     guard case let .transactionList(transactionState)? = state.path[id: id] else {
                         return .none
